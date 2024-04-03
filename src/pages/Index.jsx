@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img1 from '../assets/port.jpg'
+import img1 from '../assets/port1.jpeg'
 
 import Navbar from './Navbar'
 import ResumeDetails from './ResumeDetails'
@@ -13,13 +13,24 @@ const Port = () => {
         <br /><br /><br /><br />
         <div className="container d-flex align-items-center">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center pt-5">
                     <div className="col-sm-7 text-center">
                         {/* animation: myAnim 1s ease 0s 1 normal forwards */}
-                        <img src={img1} className='img-fluid ' style={{ borderRadius: "50%", animation: 'myAnim 1s ease 0s 1 normal forwards ' }} height="80%" width="80%" alt="" />
+                        <img
+                            src={img1}
+                            className='img-fluid '
+                            style={{
+                                borderRadius: "50%",
+                                animation: 'myAnim 1s ease 0s 1 normal forwards '
+                            }}
+                            height="65%"
+                            width="65%"
+                            alt="" />
                     </div>
                     <div className="col-sm-4 " style={{ animation: 'myAnimi 1s ease 0s 1 normal forwards ' }}>
-                        <p className=''>Hello!!!</p>
+                        <h1><span style={{
+                            fontSize: "100px"
+                        }}>Hello</span></h1>
                         <p className=''>About me,</p>
                         <p>As a recent graduate with a passion for web development, I am seeking opportunities as a MERN stack developer to apply and enhance my skills in MongoDB, Express.js, React, and Node.js.</p>
 
