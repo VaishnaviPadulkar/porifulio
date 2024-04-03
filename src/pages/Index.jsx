@@ -27,6 +27,7 @@ const Port = () => {
                             width="65%"
                             alt="" />
                     </div>
+
                     <div className="col-sm-4 " style={{ animation: 'myAnimi 1s ease 0s 1 normal forwards ' }}>
                         <h1><span style={{
                             fontSize: "100px"
